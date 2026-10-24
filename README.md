@@ -19,6 +19,19 @@ Mi web de negocio, en producción en [venustechfp.com](https://venustechfp.com).
 
 Astro, Tailwind CSS, SQLite, Docker, Nginx.
 
+### Servidor propio en producción
+
+Administro mi propio VPS con Ubuntu Server, donde alojo mis proyectos con dominio propio ([venustechfp.com](https://venustechfp.com)). Lo monté para tener varios proyectos en el mismo servidor, cada uno aislado en sus contenedores:
+
+- Nginx como proxy inverso, con certificados SSL de Let's Encrypt que se renuevan solos.
+- Contenedores con PHP-FPM 8.5, MySQL 8.4, PostgreSQL 18 y Node.js, todos en una red interna de Docker. Las bases de datos no quedan expuestas a internet.
+- Dominio gestionado en Cloudflare, con proxy y SSL en modo Full (Strict).
+- Seguridad: firewall UFW, Fail2ban para SSH y Nginx, acceso SSH con llave Ed25519 y rotación de logs.
+- Monitoreo con Uptime Kuma y administración con Portainer.
+- Reglas fijas para cada proyecto nuevo: su propio subdominio, contenedor, puerto interno y configuración de Nginx.
+
+Ubuntu Server, Docker, Nginx, Let's Encrypt, Cloudflare, MySQL, PostgreSQL.
+
 ### CoreBiz, ERP para pymes (código privado)
 
 Sistema de gestión empresarial pensado para Venezuela: facturación, inventario, caja multimoneda en USD y Bs, cuentas por cobrar y por pagar, comandas y reportes en tiempo real. Es multiempresa y multisucursal, e incluye un asistente con inteligencia artificial. [Ver el caso](https://venustechfp.com/proyectos/corebiz-erp).

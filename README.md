@@ -1,12 +1,12 @@
 # Francisco Paredes
 
-Ingeniero de Sistemas en Mérida, Venezuela. Fundador de [VenusTech](https://venustechfp.com) y CoreBiz.
+Ingeniero de Sistemas en Mérida, Venezuela. Fundador de [VenusTech](https://venustechfp.com) y socio de CoreBiz.
 
 Desarrollo páginas web y sistemas a medida, y los pongo en marcha en servidores que yo mismo administro. Tengo más de 5 años de experiencia en soporte técnico, servidores Linux y redes, así que me encargo de todo el camino: desde la base de datos hasta el despliegue en producción. Trabajo también en remoto.
 
 ## Tecnologías
 
-- **Desarrollo:** PHP 8, JavaScript, TypeScript, Astro, Tailwind CSS, Bootstrap 5, Chart.js
+- **Desarrollo:** TypeScript, JavaScript, React, PHP 8, Astro, Tailwind CSS, Bootstrap 5, Chart.js
 - **Bases de datos:** MySQL, PostgreSQL, SQLite
 - **Infraestructura:** Linux (Ubuntu, Debian), Docker, Nginx, Proxmox, Cloudflare, Windows Server
 - **Redes y monitoreo:** UISP / airFiber, Grafana, Uptime Kuma
@@ -34,9 +34,9 @@ Ubuntu Server, Docker, Nginx, Let's Encrypt, Cloudflare, MySQL, PostgreSQL.
 
 ### CoreBiz, ERP para pymes (código privado)
 
-Sistema de gestión empresarial pensado para Venezuela: facturación, inventario, caja multimoneda en USD y Bs, cuentas por cobrar y por pagar, comandas y reportes en tiempo real. Es multiempresa y multisucursal, e incluye un asistente con inteligencia artificial. [Ver el caso](https://venustechfp.com/proyectos/corebiz-erp).
+Sistema de gestión empresarial pensado para Venezuela, que desarrollo en sociedad dentro de la organización CoreBizSystem: facturación, inventario, caja multimoneda en USD y Bs, cuentas por cobrar y por pagar, comandas y reportes en tiempo real. Es multiempresa y multisucursal, e incluye un asistente con inteligencia artificial. La primera versión era PHP y MySQL; la migramos a React, TypeScript y PostgreSQL. [Ver el caso](https://venustechfp.com/proyectos/corebiz-erp).
 
-PHP 8, MySQL, PostgreSQL, Bootstrap 5, JavaScript.
+React, TypeScript, PostgreSQL.
 
 ### Sistema de operaciones para un centro de emergencias (código privado)
 
@@ -56,7 +56,7 @@ Plantilla de panel administrativo en JavaScript puro, sin compilar: login, menú
 
 JavaScript, HTML, CSS, Chart.js.
 
-CoreBiz y el sistema del centro de emergencias son privados porque uno es un producto comercial y el otro es de un cliente. Puedo mostrarlos en una entrevista.
+CoreBiz y el sistema del centro de emergencias son privados porque uno es un producto comercial de la sociedad y el otro es de un cliente. Puedo mostrarlos en una entrevista.
 
 ## Contacto
 
